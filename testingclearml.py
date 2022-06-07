@@ -8,4 +8,7 @@ print('Hello from the other side!')
 print("Why does it not work!!")
 print("Testing again")
 print("="*20)
+# report text
+logger = task.get_logger()
+logger.current_logger().report_text("hello, this is plain text")
 task.close()
