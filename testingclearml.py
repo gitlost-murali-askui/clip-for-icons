@@ -5,4 +5,6 @@ task.execute_remotely()
 # // so anything you would use after this line, it would copied and sent to the server.
 # // do something for example the next line!
 print('Hello from the other side!')
+print("Why does it not work!!")
+print("="*20)
 task.close()
